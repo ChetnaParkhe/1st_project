@@ -1,0 +1,69 @@
+ body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000;
+  }
+
+  
+ .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+ }
+
+ .container video{
+  width: 100%;
+  height: 100%;
+ }
+
+ .text-box{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100%;
+  font-weight: 100%;
+  mix-blend-mode: multiply;
+ }
+
+ .text-box h1{
+  font-size: 10rem;
+ }
+  
+  /* .container h1 {
+    font-size: 5rem;
+    color: #000;
+    text-align: center;
+    background-image: url(bg.jpg) ;
+    background-repeat: repeat;
+    background-size: cover;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',helvetica, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+    animation: textShimmer 5s infinite linear alternate; */
+
+
+    /* background-size: cover;
+    background-clip: text;*/
+    /* -webkit-background-clip: text; */
+  
+  
+  
+  /* @keyframes textShimmer {
+    from
